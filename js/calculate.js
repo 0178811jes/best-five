@@ -42,15 +42,6 @@ document.getElementById('total-calculate').addEventListener('click', function(){
     playerValue = expenceTotal;
 
    
-    //calculate total element//
-
-    const calculateElement = document.getElementById('btn-calculation');
-    const calculateElementTotalString = calculateElement.innerText;
-    const calculateElementTotal = parseFloat(calculateElementTotalString);
-    calculateElement.innerText = calculateElementTotal;
-
-    const calculatTotalValue = coachFieldTotal + managerFieldTotal + playerValue;
-    calculateElement.innerText = calculatTotalValue;
-    
+   
 
 })
