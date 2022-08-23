@@ -21,6 +21,103 @@
        <p class="text-white">Their are My Feverate <br>Players </p>
     </header>
     <!-- //header// end -->
-   
+    <main class="d-flex ms-10">
+      <!--card start-->
+      
+          <section class="">
+              <div class="container text-center mt-5 d-flex text-black">
+                  <!--button onclick set start-->
+                  <div class="card mt-5 ml-5" style="width: 18rem;">
+                      <img src="images/Tamim-Iqbal.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 id="tamim-t" class="card-title">Tamim Iqbal</h5>
+                        
+                       <button onclick="nameCall('Tamim Iqbal','select-1')" id="select-1" class="btn btn-primary">select</button>
+                      </div>
+                    </div>
+                  <div class="card mt-5 ms-5" style="width: 18rem;">
+                      <img src="images/1563242981-West-Indies-Bangladeshs-Shakib-Al-Hasan-celebrates-reaching-his-century-AP.webp" class="card-img-top" alt="...">
+                      <div class="card-body ms-5">
+                        <h5 class="card-title">Sakib Al Hasan</h5>
+                        
+                        <button onclick="nameCall('Sakib Al Hasan', 'select-2')" id="select-2" class="btn btn-primary">select</button>
+                      </div>
+                    </div>
+                  <div class="card mt-5 ms-5" style="width: 18rem;">
+                      <img src="images/286651.6.webp" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Shahid Afridi</h5>
+                        
+                        <button onclick="nameCall('Shahid Afridi','select-3')" id="select-3" class="btn btn-primary">select</button>
+                      </div>
+                    </div>
+              </div>
+              <!--button onclick set end-->
+              <div class="container text-center mt-5 d-flex text-black">
+                  <div class="card mt-5 ml-5" style="width: 18rem;">
+                      <img src="images/771982-mashrafe-mortaza.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mashrafe ben martuza</h5>
+                       
+                        <button onclick="nameCall('Mushfiqur Rahim','select-4')" id="select-4" class="btn btn-primary">select</button>
+                      </div>
+                    </div>
+                  <div class="card mt-5 ms-5" style="width: 18rem;">
+                      <img src="images/fp7og0vJ.jpg" class="card-img-top" alt="...">
+                      <div class="card-body ms-5">
+                        <h5 class="card-title">Babar Azom</h5>
+                        
+                        <button onclick="nameCall('Babar Azom','select-5')" id="select-5" class="btn btn-primary">select</button>
+                      </div>
+                    </div>
+                  <div class="card mt-5 ms-5" style="width: 18rem;">
+                      <img src="images/Mushfiqur-Rahim.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Mushfiqur Rahim</h5>
+                        <!--alert done-->
+                        <button onclick="nameCall('Mushfiqur Rahim','select-6')" id="select-6" class="btn btn-primary">select</button>
+                      </div>
+                    </div>
+                    
+              </div>
+              
+              <!--card end-->
+          </section>
+          <section>
+              <div class="ms-10">
+                  <div class="container">
+                      <h3 class="mt-5">Selected-Player</h3>
+                      <ul id="list-container">
+                         
+                          
+                          
+                      </ul>
+                  </div>
+                  <div class="container ">
+                      <div>
+                          <h3 class="">Budget</h3>
+                      </div>
+                      <div class="d-flex ">
+                          <p class="me-3">Per Player:</p>
+                          <input id="budget-player" type="text" placeholder="Type your total budget">
+                      </div>
+                      <button id="btn-calculate" class="mt-5 btn btn-primary mb-5">calculate</button>
+                      <p>Player Expenses $ <span id="play-expence">0</span></p>
+                      <div class="d-flex mt-5">
+                          <p class="me-3">Manager:</p>
+                          <input id="manager-field" type="text" placeholder="Type your total budget">
+                      </div>
+                      <div class="d-flex mt-5">
+                          <p class="me-3">Coach:</p>
+                          <input id="coach-field" type="text" placeholder="Type your total coach budget">
+                      </div>
+                      <button id="total-calculate" class="mt-5 btn btn-primary mb-5">calculate Total</button>
+                      <p>Total $ <span id="btn-calculation" class="text-danger">0</span></p>
+                  </div>
+              </div>
+          </section>
+      </main>
+      <script src="js/cardbutton.js"></script>
+      <script src="js/calculate.js"></script>
 </body>
 </html>
